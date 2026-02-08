@@ -81,7 +81,7 @@ ORDER BY SUM(`Total Amount`) DESC;
 
 | ![Product Query](images/Products.png) |
 
-# Insight: The top 5 products account for a significant portion of total revenue. I recommend a targeted loyalty program for this specific segment to increase retention.
+# Insight: The top 3 products account for a significant portion of total revenue. I recommend a targeted loyalty program for this specific segment to increase retention.
 
 # Skills Demonstrated
 Data Aggregation: Using SUM(), COUNT(), and GROUP BY to summarize thousands of rows.
