@@ -18,7 +18,7 @@ Below are the visual snapshots of the analysis performed in MySQL Workbench.
 
 | Database Map (ER Diagram) | Sales Analysis Results | Top Products |
 | :---: | :---: | :---: |
-| ![ER Diagram](images/My_Database_Map.png) | ![Sales Query](images/sales.png) | ![Product Query](images/product_results.png) |
+| ![ER Diagram](images/My_Database_Map.png) | ![Sales Query](images/sales.png) | ![Product Query](images/Products.png) |
 
 # 1. Which region has the highest sales?
 
