@@ -64,7 +64,7 @@ FROM
 GROUP BY `Product Category`
 ORDER BY SUM(`Total Amount`) DESC;
 
-Insight: The top 5 customers account for a significant portion of total revenue. I recommend a targeted loyalty program for this specific segment to increase retention.
+Insight: The top 5 products account for a significant portion of total revenue. I recommend a targeted loyalty program for this specific segment to increase retention.
 
 Skills Demonstrated
 Data Aggregation: Using SUM(), COUNT(), and GROUP BY to summarize thousands of rows.
