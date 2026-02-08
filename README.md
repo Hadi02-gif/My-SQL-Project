@@ -13,6 +13,13 @@ Sample_superstore: Order information of customers.
 
 Business Questions & SQL Solutions
 
+## 🖼️ Results Gallery
+Below are the visual snapshots of the analysis performed in MySQL Workbench.
+
+| Database Map (ER Diagram) | Sales Analysis Results | Top Products |
+| :---: | :---: | :---: |
+| ![ER Diagram](images/my_database_map.png) | ![Sales Query](images/sales_results.png) | ![Product Query](images/product_results.png) |
+
 # 1. Which region has the highest sales?
 
 To solve this, I joined the sales data with geographical regions and aggregated the total revenue.
