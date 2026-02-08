@@ -79,7 +79,7 @@ Data Sorting: Applying ORDER BY and LIMIT to find top-tier performers and outlie
 
 # About the Developer
 
-I am a budding Data Analyst currently mastering the art of SQL. This project represents Week 4 of my journey, where I moved from learning basic commands to solving real-world business puzzles. 
+I am a developing Data Analyst currently mastering the art of SQL. This project represents Week 4 of my journey, where I moved from learning basic commands to solving real-world business puzzles. 
 
 What I learned during this project:
 How to connect different data tables using JOINs (like pieces of a puzzle).
