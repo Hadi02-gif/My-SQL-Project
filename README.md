@@ -50,6 +50,10 @@ FROM
 GROUP BY Region
 ORDER BY COUNT(Sales) DESC;
 
+| Sales Analysis Results |
+
+| ![Sales Query](images/sales.png) |
+
 # Insight: The West Region is currently the top performer. This suggests that marketing efforts are successfully converting in this territory.
 
 # 2. Which product category has the highest sales?
@@ -72,6 +76,10 @@ FROM
     retail_sales_dataset
 GROUP BY `Product Category`
 ORDER BY SUM(`Total Amount`) DESC;
+
+| Top Products |
+
+| ![Product Query](images/Products.png) |
 
 # Insight: The top 5 products account for a significant portion of total revenue. I recommend a targeted loyalty program for this specific segment to increase retention.
 
