@@ -26,29 +26,48 @@ To solve this, I joined the sales data with geographical regions and aggregated 
 
 
 SELECT 
+
     *
 FROM
+
     sample_superstore;
+    
 SELECT 
+
     `Customer ID`
+    
 FROM
+
     sample_superstore;
+    
 SELECT 
+
     sample_superstore.`Order ID`,
     sample_superstore.`Customer Name`,
     sample_superstore.Sales,
     customers.CustomerID
+    
 FROM
+
     sample_superstore
+    
         LEFT JOIN
+        
     customers ON sample_superstore.`Customer ID` = customers.CustomerID;
 /*Highest sales by region*/
+
 SELECT 
+
     Region, COUNT(Sales)
+    
 FROM
+
     sample_superstore
+    
 GROUP BY Region
+
 ORDER BY COUNT(Sales) DESC;
+
 
 | Sales Analysis Results |
 
@@ -62,20 +81,35 @@ This query identifies our "VIP" product by calculating the total spend per produ
 
 
 SELECT 
+
     *
+    
 FROM
+
     retail_sales_dataset;
+    
 SELECT 
+
     `Customer ID`
+    
 FROM
+
     retail_sales_dataset;
+    
 /*Highest sales by product category*/
+
 SELECT 
+
     SUM(`Total Amount`), `Product Category`
+    
 FROM
+
     retail_sales_dataset
+    
 GROUP BY `Product Category`
+
 ORDER BY SUM(`Total Amount`) DESC;
+
 
 | Top Products |
 
